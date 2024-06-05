@@ -4,12 +4,10 @@ const app = require("./app");
 
 // const { DB_HOST } = require("./config")
 
-
-
 mongoose
 
   .connect(
-    "mongodb+srv://Vol4enak:4Wt8ss7xLegGvtzS@nodejs-db.peu48kx.mongodb.net/Contact-book"
+    "mongodb+srv://Vol4enak:OmkDsaH5jXoFZ5t6@nodejs-db.peu48kx.mongodb.net/Contact-book"
   )
 
   .then(() => {
