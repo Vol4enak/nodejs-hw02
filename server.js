@@ -2,10 +2,6 @@ const mongoose = require("mongoose");
 
 const app = require("./app");
 
-// const { DB_HOST } = require("./config")
-
-
-
 mongoose
 
   .connect(
